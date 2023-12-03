@@ -1,5 +1,5 @@
 # Friend_List_MERN
-# Getting Started withFriend_List_MERN
+# Getting Started with Friend_List_MERN
 ### created my Satyam Kumar
 
 ### Deployed app on vercel and render
@@ -12,7 +12,7 @@ In the project directory, you can run:
 
 ### `Clone this repository to you system`
 
-git clone https://github.com/ThakurSatyam04/Friend_List_MER
+git clone https://github.com/ThakurSatyam04/Friend_List_MERN
 
 ### `npm start`
 
