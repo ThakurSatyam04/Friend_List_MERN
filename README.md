@@ -12,7 +12,7 @@ In the project directory, you can run:
 
 ### `Clone this repository to you system`
 
-git clone https://github.com/ThakurSatyam04/Todo-IndexedDB.git
+git clone https://github.com/ThakurSatyam04/Friend_List_MER
 
 ### `npm start`
 
