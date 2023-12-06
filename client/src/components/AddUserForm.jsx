@@ -14,7 +14,6 @@ const AddUserForm = () => {
     const genders = ["Female", "Male", "Polygender", "Genderqueer", "Non-binary", "Bigender", "Agender", "Genderfluid"]
 
     const [user, setUser] = useState({
-        // id:"",
         first_name:"",
         last_name:"",
         email:"",

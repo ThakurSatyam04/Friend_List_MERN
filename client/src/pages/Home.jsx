@@ -120,8 +120,8 @@ const Home = () => {
   return (
     <div>
       {
-        <div className="flex justify-between m-4 items-center">
-          <form class="w-[300px] flex items-center m-4">
+        <div className="flex flex-col md:flex-row justify-between m-4 items-center">
+        <form className="w-full md:w-[300px] flex items-center m-4">
             <label for="simple-search" class="sr-only">
               Search
             </label>
@@ -152,12 +152,12 @@ const Home = () => {
             </div>
           </form>
 
-          <form className="flex gap-2">
+          <form className="flex flex-wrap gap-2">
             <select
               id="select_genders"
               onChange={handleGenderChange}
               value={selectedGender} 
-              className="cursor-pointer border border-gray-300 rounded-md py-2 px-2 leading-tight focus:outline-none focus:border-blue-500"
+              className="cursor-pointer border border-gray-300 rounded-md py-2 px-2 leading-tight focus:outline-none focus:border-blue-500 mb-2 md:mb-0"
             >
               <option value="" disabled className="text-gray-500">
                 Select Gender
@@ -172,7 +172,7 @@ const Home = () => {
               id="select_domain"
               onChange={handleDomainChange}
               value={selectedDomain}
-              className="cursor-pointer border border-gray-300 rounded-md py-2 px-2 leading-tight focus:outline-none focus:border-blue-500"
+              className="cursor-pointer border border-gray-300 rounded-md py-2 px-2 leading-tight focus:outline-none focus:border-blue-500 mb-2 md:mb-0"
             >
               <option value="" disabled className="text-gray-500">
                 Select Domain
@@ -188,7 +188,7 @@ const Home = () => {
               id="available"
               value={selectedAvailability}
               onChange={handleAvailabilityChange}
-              className="cursor-pointer border border-gray-300 rounded-md py-2 px-2 leading-tight focus:outline-none focus:border-blue-500"
+              className="cursor-pointer border border-gray-300 rounded-md py-2 px-2 leading-tight focus:outline-none focus:border-blue-500 mb-2 md:mb-0"
             >
               <option value="" disabled className="text-gray-500">
                 Select Availability
